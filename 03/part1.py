@@ -30,7 +30,6 @@ with Path("./input.txt").open("r") as inp:
         if part_number:
             to_add = int(part_number)
             if is_part_number:
-                print(to_add)
                 result += to_add
         part_number = ""
         is_part_number = False
@@ -43,7 +42,6 @@ with Path("./input.txt").open("r") as inp:
                 if part_number:
                     to_add = int(part_number)
                     if is_part_number:
-                        print(to_add)
                         result += to_add
                 part_number = ""
                 is_part_number = False
