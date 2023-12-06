@@ -14,7 +14,6 @@ with Path(INPUT_FILE).open("rb") as f:
     card_copies = [1] * num_lines
 
 with Path(INPUT_FILE).open("r") as inp:
-    colours_allowed_max = {"red": 12, "green": 13, "blue": 14}
     result = 0
     for card_num, line in enumerate(inp):
         card, numbers = line.strip().split(":")

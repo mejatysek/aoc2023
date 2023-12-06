@@ -1,0 +1,52 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "74ac0bccca06e64083167f3953a9f1d074cf7ecd47d4f5f4e6c59dcbb1eabccb"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_full_version": "3.12.0",
+            "python_version": "3.12"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "crlibm": {
+            "hashes": [
+                "sha256:13c31e207cf6ac19b9a27a38f8cf4b5ad19e5d7b2e06daaf111e7fc22d2f637e",
+                "sha256:2592ceec4f7b26579049f63f637d8bdeef82a4465999c35d71124623b82c7a33",
+                "sha256:28044e908dec4d85b5eff8b22459687c4302460a56ac12baf6ec220ba1d693c2",
+                "sha256:420bca4a622152f74196b2e9af3fe3d38ac8b54dc8c228746fa9f46094f69b5e",
+                "sha256:48e17981f90d69c6bb0013f68bacbe7a157de864a533d15dd196ca7e98348a35",
+                "sha256:5ee43fcc10e1be0c3fa47503c452f34f83b3c86b274f1fb0f7872b7e53cef861",
+                "sha256:6fffdaa6c470826df1c892e358a6308b9c989ce15627146e945ab42dcb28eabe",
+                "sha256:d8b045de7187904833738092e334d17d4c53bd7ef88732635fb2b4e220a30bc6",
+                "sha256:f98c2d1a656104c8e47fb293cb29224c45a24eaad4a1096e2b14a935abe748d5"
+            ],
+            "index": "pypi",
+            "version": "==1.0.3"
+        },
+        "pyinterval": {
+            "hashes": [
+                "sha256:8c46224a05815affa803ed5620432236bba620a246701b860d98ae7358a41d21"
+            ],
+            "index": "pypi",
+            "version": "==1.2.0"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.16.0"
+        }
+    },
+    "develop": {}
+}

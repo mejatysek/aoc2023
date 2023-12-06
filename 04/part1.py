@@ -7,7 +7,6 @@ def parse_numbers(nums_str: str) -> List[int]:
 
 
 with Path("./input.txt").open("r") as inp:
-    colours_allowed_max = {"red": 12, "green": 13, "blue": 14}
     result = 0
     for line in inp:
         card, numbers = line.strip().split(":")
