@@ -1,6 +1,7 @@
+from datetime import datetime
 from pathlib import Path
 
-
+start = datetime.now()
 with Path("./input.txt").open("r") as inp:
     result = 0
     seeds = []
@@ -23,3 +24,5 @@ with Path("./input.txt").open("r") as inp:
                 better.append(actual)
         result *= len(better)
     print(result)
+    end = datetime.now()
+    print(end - start)
